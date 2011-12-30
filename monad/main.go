@@ -36,8 +36,5 @@ func main() {
 	l.Append(1)
 	l.Append(2)
 	l.Append(3)
-	l.Fmap(func(i interface{}) interface{} {
-		return i.(int) + 2
-	})
 	l.PrintInts()
 }
